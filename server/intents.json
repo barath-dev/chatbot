@@ -1,68 +1,112 @@
 {
     "intents": [
-      {
-        "pattern": "explore_historical_places",
-        "keywords": ["historical places", "cultural sites", "historical chatbot"],
-        "responses": [
-          "Our chatbot specializes in providing information about historical places and cultural sites.",
-          "Discover the rich history of significant locations with our specialized chatbot.",
-          "From the Great Wall of China to the Pyramids of Egypt, our chatbot guides you through iconic historical places."
-        ]
-      },
-      {
-        "pattern": "chatbot_purpose",
-        "keywords": ["enhance visitor experience", "interactive guide", "real-time assistance"],
-        "responses": [
-          "The chatbot serves as an interactive guide, enhancing the overall visitor experience.",
-          "Offering real-time assistance, our chatbot is designed to make your exploration memorable.",
-          "Whether you're exploring ancient ruins or medieval castles, our chatbot ensures a seamless and informative journey."
-        ]
-      },
-      {
-        "pattern": "technology_used",
-        "keywords": ["natural language processing", "machine learning algorithms", "historical databases"],
-        "responses": [
-          "Utilizing natural language processing and machine learning algorithms, our chatbot understands user queries with precision.",
-          "We integrate historical databases to provide contextually relevant responses.",
-          "The same technology that powers virtual assistants is at the core of our historical chatbot, ensuring accurate and engaging interactions."
-        ]
-      },
-      {
-        "pattern": "information_provided",
-        "keywords": ["architectural elements", "artifacts", "historical events"],
-        "responses": [
-          "Get accurate details about architectural elements, artifacts, and historical events associated with the place or temple.",
-          "Explore the significance of historical sites through our chatbot's comprehensive information.",
-          "Uncover hidden stories behind the Colosseum's architecture or the intricate carvings at Angkor Wat with our chatbot."
-        ]
-      },
-      {
-        "pattern": "user_interface",
-        "keywords": ["user-friendly interface", "text interaction"],
-        "responses": [
-          "Interact seamlessly with our chatbot using a user-friendly interface.",
-          "Engage in a conversation via text, making your experience intuitive and enjoyable.",
-          "Navigate through history effortlessly with our chatbot's intuitive interface, designed for both experts and casual visitors."
-        ]
-      },
-      {
-        "pattern": "personalization",
-        "keywords": ["adapt responses", "user preferences", "immersive experience"],
-        "responses": [
-          "Our chatbot adapts its responses based on your preferences, ensuring a personalized and immersive experience.",
-          "Tailoring responses to individual preferences, we strive to make each visit unique.",
-          "Tell our chatbot your historical interests, and it will craft a personalized tour just for you, whether you're into ancient civilizations or Renaissance art."
-        ]
-      },
-      {
-        "pattern": "evaluation_criteria",
-        "keywords": ["user feedback", "visitor satisfaction", "knowledge acquisition"],
-        "responses": [
-          "We evaluate the effectiveness of our chatbot through user feedback, assessing visitor satisfaction and knowledge acquisition.",
-          "Analyzing the impact on overall experience, we strive to enhance visitor satisfaction at historical places.",
-          "Join our community of users shaping the future of historical exploration by providing valuable feedback on your chatbot experience."
-        ]
-      }
+        {
+            "tag": "taj_mahal_info",
+            "patterns": [
+                "Tell me about the Taj Mahal",
+                "What do you know about the Taj Mahal?",
+                "Give me information on the Taj Mahal",
+                "Details of the Taj Mahal"
+            ],
+            "responses": [
+                "Certainly! The Taj Mahal is a white marble mausoleum in Agra, India. It was built by the Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal. The Taj Mahal is a UNESCO World Heritage site and a symbol of eternal love.",
+                "The Taj Mahal is an iconic masterpiece of Mughal architecture, located on the banks of the Yamuna River. It is one of the Seven Wonders of the World and a symbol of India's rich cultural heritage.",
+                "Nestled in Agra, the Taj Mahal is a breathtaking monument known for its stunning white marble and intricate design. It stands as a testament to the timeless love story of Shah Jahan and Mumtaz Mahal."
+            ]
+        },
+        {
+            "tag": "qutub_minar_info",
+            "patterns": [
+                "Tell me about the Qutub Minar",
+                "What do you know about the Qutub Minar?",
+                "Give me information on the Qutub Minar",
+                "Details of the Qutub Minar"
+            ],
+            "responses": [
+                "Certainly! The Qutub Minar is a UNESCO World Heritage site in Delhi, India. It is a tall minaret built in the early 13th century, standing as a symbol of the Delhi Sultanate's architectural brilliance.",
+                "The Qutub Minar is an impressive tower built with red sandstone and marble. It is the tallest brick minaret in the world and is surrounded by ancient ruins, including the Iron Pillar of Delhi.",
+                "Located in Delhi, the Qutub Minar is a historical marvel dating back to the 12th century. Its intricate carvings and towering structure make it a prominent landmark in India's capital city."
+            ]
+        },
+        {
+            "tag": "amber_fort_info",
+            "patterns": [
+                "Tell me about the Amber Fort",
+                "What do you know about the Amber Fort?",
+                "Give me information on the Amber Fort",
+                "Details of the Amber Fort"
+            ],
+            "responses": [
+                "Certainly! The Amber Fort is a majestic fort located in Jaipur, Rajasthan. It is known for its artistic architecture, stunning views, and historical significance as the residence of the Rajput rulers.",
+                "The Amber Fort, also known as Amer Fort, is a UNESCO World Heritage site. It showcases a beautiful blend of Hindu and Rajput architectural styles, featuring palaces, courtyards, and intricate decorations.",
+                "Situated on a hilltop in Jaipur, the Amber Fort is a captivating fortress with ornate palaces and grand gateways. Its unique blend of Rajput and Mughal architecture makes it a must-visit destination in Rajasthan."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "capabilites",
+            "patterns": [
+                "What can you do?",
+                "What are your capabilities?",
+                "What are you capable of?"
+            ],
+            "responses": [
+                "I can help you with providing details of historical places."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What is the weather like in {location}?",
+                "Tell me the weather forecast for {location}",
+                "Is it going to rain in {location} today?",
+                "Weather update for {location}"
+            ],
+            "responses": [
+                "The weather in {location} is sunny today.",
+                "It seems like a cloudy day in {location}.",
+                "Expect some rain in {location} later.",
+                "I'm sorry, I couldn't fetch the weather information for {location} at the moment."
+            ]
+        },
+        {
+            "tag" :"temperature",
+            "patterns": [
+                "What is the temperature in {location}?",
+                "Tell me the temperature for {location}",
+                "Is it hot in {location} today?",
+                "Temperature update for {location}"
+            ]
+        }
     ]
-  }
-  
+}
