@@ -1,45 +1,49 @@
 {
     "intents": [
         {
-            "tag": "taj_mahal_info",
+            "tag": "about_taj_mahal",
             "patterns": [
                 "Tell me about the Taj Mahal",
-                "What do you know about the Taj Mahal?",
-                "Give me information on the Taj Mahal",
-                "Details of the Taj Mahal"
+                "What is the Taj Mahal",
+                "What is the history of the Taj Mahal",
+                "What is the story of the Taj Mahal"
             ],
             "responses": [
-                "Certainly! The Taj Mahal is a white marble mausoleum in Agra, India. It was built by the Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal. The Taj Mahal is a UNESCO World Heritage site and a symbol of eternal love.",
-                "The Taj Mahal is an iconic masterpiece of Mughal architecture, located on the banks of the Yamuna River. It is one of the Seven Wonders of the World and a symbol of India's rich cultural heritage.",
-                "Nestled in Agra, the Taj Mahal is a breathtaking monument known for its stunning white marble and intricate design. It stands as a testament to the timeless love story of Shah Jahan and Mumtaz Mahal."
+                "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself."
             ]
         },
         {
-            "tag": "qutub_minar_info",
+            "tag" : "taj_mahal_location",
             "patterns": [
-                "Tell me about the Qutub Minar",
-                "What do you know about the Qutub Minar?",
-                "Give me information on the Qutub Minar",
-                "Details of the Qutub Minar"
+                "Where is the Taj Mahal located?",
+                "What is the location of the Taj Mahal",
+                "Where can I find the Taj Mahal"
             ],
             "responses": [
-                "Certainly! The Qutub Minar is a UNESCO World Heritage site in Delhi, India. It is a tall minaret built in the early 13th century, standing as a symbol of the Delhi Sultanate's architectural brilliance.",
-                "The Qutub Minar is an impressive tower built with red sandstone and marble. It is the tallest brick minaret in the world and is surrounded by ancient ruins, including the Iron Pillar of Delhi.",
-                "Located in Delhi, the Qutub Minar is a historical marvel dating back to the 12th century. Its intricate carvings and towering structure make it a prominent landmark in India's capital city."
+                "The Taj Mahal is located in Agra, India."
             ]
         },
         {
-            "tag": "amber_fort_info",
+            "tag" : "red_fort_info",
             "patterns": [
-                "Tell me about the Amber Fort",
-                "What do you know about the Amber Fort?",
-                "Give me information on the Amber Fort",
-                "Details of the Amber Fort"
+                "Tell me about the Red Fort",
+                "What is the Red Fort",
+                "What is the history of the Red Fort",
+                "What is the story of the Red Fort"
             ],
             "responses": [
-                "Certainly! The Amber Fort is a majestic fort located in Jaipur, Rajasthan. It is known for its artistic architecture, stunning views, and historical significance as the residence of the Rajput rulers.",
-                "The Amber Fort, also known as Amer Fort, is a UNESCO World Heritage site. It showcases a beautiful blend of Hindu and Rajput architectural styles, featuring palaces, courtyards, and intricate decorations.",
-                "Situated on a hilltop in Jaipur, the Amber Fort is a captivating fortress with ornate palaces and grand gateways. Its unique blend of Rajput and Mughal architecture makes it a must-visit destination in Rajasthan."
+                "The Red Fort is a historic fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1856. It is located in the center of Delhi and houses a number of museums."
+            ]
+        },
+        {
+            "tag" : "red_fort_location",
+            "patterns": [
+                "Where is the Red Fort located?",
+                "What is the location of the Red Fort",
+                "Where can I find the Red Fort"
+            ],
+            "responses": [
+                "The Red Fort is located in Delhi, India."
             ]
         },
         {
@@ -100,7 +104,7 @@
             ]
         },
         {
-            "tag" :"temperature",
+            "tag": "temperature",
             "patterns": [
                 "What is the temperature in {location}?",
                 "Tell me the temperature for {location}",
