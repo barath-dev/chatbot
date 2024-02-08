@@ -103,7 +103,7 @@ def get_temperature(location):
     return ({
         "type":"temperature",
         "message" : f"The temperature in {location} is",
-        "temperature" : temperature
+        "temperature" : (temperature-273.15)
     })
 
 def chatbot(message):

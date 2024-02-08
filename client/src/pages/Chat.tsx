@@ -78,7 +78,7 @@ const TemperatureMessage = ({ temperature, message }: { temperature: string, mes
                 <div className="font-medium">Bot</div>
                 <div className={"rounded-lg p-3 bg-gradient-to-br from-blue-200 to-purple-300"}>
                     <p>{message}</p>
-                    <p className="font-medium text-xl">{temperature} °F</p>
+                    <p className="font-medium text-xl">{temperature} °C</p>
                 </div>
                 <div className="text-xs text-gray-500 dark:text-gray-400">10:16 AM</div>
             </div>
