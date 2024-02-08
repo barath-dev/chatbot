@@ -111,4 +111,3 @@ def chatbot(message):
     ints = predict_class(message)
     res = get_response(ints, intents, entities)
     return (res)
-print(chatbot("temperature in Phagwara"))
