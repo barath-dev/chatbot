@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from chatbot import chatbot
 origins = [
-        "http://127.0.0.1:5173"
+        "http://localhost:5173"
 ]
 
 app = FastAPI()
@@ -16,9 +16,11 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
+
 @app.post("/chat")
 async def chat(request: Request):
     data = await request.json()
+    print(request)
     message = data['message']
     result = chatbot(message)
     return {"response": result}

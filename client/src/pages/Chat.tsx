@@ -36,7 +36,6 @@ export default function Chat() {
 
         }])
         setMessage('')
-
     }
     return (
         <AppLayout>
