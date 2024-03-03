@@ -88,15 +88,15 @@ const TemperatureMessage = ({ temperature, message }: { temperature: string, mes
 const UserMessage = ({ message }: { message: string }) => {
     return (
         <div className="flex items-end gap-4 ml-auto">
-            <Avatar className="h-9 w-9 border-2">
-                <AvatarImage alt="@shadcn" src="/placeholder-user.jpg" />
-                <AvatarFallback>ME</AvatarFallback>
-            </Avatar>
             <div className="grid gap-1 text-sm">
                 <div className="font-medium">You</div>
                 <div className={"rounded-lg p-3 bg-gradient-to-br from-green-200 to-blue-300"}>{message}</div>
                 <div className="text-xs text-gray-500 dark:text-gray-400">10:16 AM</div>
             </div>
+            <Avatar className="h-9 w-9 border-2">
+                <AvatarImage alt="@shadcn" src="/placeholder-user.jpg" />
+                <AvatarFallback>ME</AvatarFallback>
+            </Avatar>
         </div>
     )
 }
