@@ -70,6 +70,54 @@
                 "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal."
             ]
 
+        },
+        {
+            "tag": "red_fort",
+            "patterns": [
+                "Tell me about Red Fort",
+                "What is Red Fort",
+                "What is the history of Red Fort",
+                "Where is Red Fort located"
+            ],
+            "responses": [
+                "The Red Fort is a historic fort in the city of Delhi in India, which served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1638."
+            ]
+        },
+        {
+            "tag": "qutub_minar",
+            "patterns": [
+                "Tell me about Qutub Minar",
+                "What is Qutub Minar",
+                "What is the history of Qutub Minar",
+                "Where is Qutub Minar located"
+            ],
+            "responses": [
+                "The Qutub Minar, also spelled as Qutb Minar, is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Qutb Minar is a 73-metre tall tapering tower of five storeys, with a 14.3 metres base diameter, reducing to 2.7 metres at the top of the peak."
+            ]
+        },
+        {
+            "tag": "india_gate",
+            "patterns": [
+                "Tell me about India Gate",
+                "What is India Gate",
+                "What is the history of India Gate",
+                "Where is India Gate located"
+            ],
+            "responses": [
+                "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the Ceremonial axis of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 70,000 soldiers of the British Indian Army who died in the period 1914 to 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War."
+            ]
+        },
+        {
+            "tag": "victoria_memorial",
+            "patterns": [
+                "Tell me about Victoria Memorial",
+                "What is Victoria Memorial",
+                "What is the history of Victoria Memorial",
+                "Where is Victoria Memorial located"
+            ],
+            "responses": [
+                "The Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria and is now a museum and tourist destination under the auspices of the Ministry of Culture."
+            ]
         }
     ]
 }
