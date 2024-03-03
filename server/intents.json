@@ -6,7 +6,7 @@
                 "Hi",
                 "Hello",
                 "Hey",
-                "How are you"
+                "How are you?"
             ],
             "responses": [
                 "Hello!",
@@ -20,7 +20,7 @@
                 "Bye",
                 "See you later",
                 "Goodbye",
-                "Nice chatting to you, bye",
+                "Nice chatting with you, bye",
                 "Till next time"
             ],
             "responses": [
@@ -30,14 +30,14 @@
             ]
         },
         {
-            "tag": "capabilites",
+            "tag": "capabilities",
             "patterns": [
                 "What can you do?",
                 "What are your capabilities?",
                 "What are you capable of?"
             ],
             "responses": [
-                "I can help you with providing details of historical places."
+                "I can help you by providing details of historical places."
             ]
         },
         {
@@ -47,6 +47,9 @@
                 "Tell me the weather forecast for {location}",
                 "Is it going to rain in {location} today?",
                 "Weather update for {location}"
+            ],
+            "responses": [
+                "I'm sorry, I don't have information about the weather at the moment."
             ]
         },
         {
@@ -56,20 +59,22 @@
                 "Tell me the temperature for {location}",
                 "Is it hot in {location} today?",
                 "Temperature update for {location}"
+            ],
+            "responses": [
+                "I'm sorry, I don't have information about the temperature at the moment."
             ]
         },
         {
-            "tag" : "taj_mahal",
-            "patterns" : [
+            "tag": "taj_mahal",
+            "patterns": [
                 "Tell me about Taj Mahal",
                 "What is Taj Mahal",
                 "What is the history of Taj Mahal",
-                "Where is Taj Mahal located"
+                "Taj Mahal"
             ],
-            "responses" : [
+            "responses": [
                 "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal."
             ]
-
         },
         {
             "tag": "red_fort",
@@ -77,10 +82,10 @@
                 "Tell me about Red Fort",
                 "What is Red Fort",
                 "What is the history of Red Fort",
-                "Where is Red Fort located"
+                "Red Fort"
             ],
             "responses": [
-                "The Red Fort is a historic fort in the city of Delhi in India, which served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1638."
+                "The Red Fort is a historic fort in the city of Delhi in India, which served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned the construction of the Red Fort on 12 May 1638."
             ]
         },
         {
@@ -89,10 +94,11 @@
                 "Tell me about Qutub Minar",
                 "What is Qutub Minar",
                 "What is the history of Qutub Minar",
-                "Where is Qutub Minar located"
+                "Where is Qutub Minar located",
+                "Qutub Minar"
             ],
             "responses": [
-                "The Qutub Minar, also spelled as Qutb Minar, is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Qutb Minar is a 73-metre tall tapering tower of five storeys, with a 14.3 metres base diameter, reducing to 2.7 metres at the top of the peak."
+                "The Qutub Minar, also spelled as Qutb Minar, is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Qutub Minar is a 73-meter tall tapering tower of five storeys, with a 14.3-meter base diameter, reducing to 2.7 meters at the top of the peak."
             ]
         },
         {
@@ -100,20 +106,19 @@
             "patterns": [
                 "Tell me about India Gate",
                 "What is India Gate",
-                "What is the history of India Gate",
-                "Where is India Gate located"
+                "Where is India Gate located",
+                "India Gate"
             ],
             "responses": [
-                "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the Ceremonial axis of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 70,000 soldiers of the British Indian Army who died in the period 1914 to 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War."
+                "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the Ceremonial axis of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 70,000 soldiers of the British Indian Army who died in the period 1914 to 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli, and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War."
             ]
         },
         {
             "tag": "victoria_memorial",
             "patterns": [
                 "Tell me about Victoria Memorial",
-                "What is Victoria Memorial",
-                "What is the history of Victoria Memorial",
-                "Where is Victoria Memorial located"
+                "Where is Victoria Memorial located",
+                "Victoria Memorial"
             ],
             "responses": [
                 "The Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria and is now a museum and tourist destination under the auspices of the Ministry of Culture."
