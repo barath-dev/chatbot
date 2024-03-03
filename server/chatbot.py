@@ -61,6 +61,7 @@ def predict_class(sentence):
 def get_response(intents_list, intents_json, entities):
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
+    print(intents_list)
     if tag == 'weather' and entities:
         location = entities[0]  
         weather_response = get_weather_response(location)
@@ -103,7 +104,7 @@ def get_temperature(location):
     return ({
         "type":"temperature",
         "message" : f"The temperature in {location} is",
-        "temperature" : (temperature-273.15)
+        "temperature" : round(temperature-273.15,2)
     })
 
 def chatbot(message):

@@ -1,60 +1,12 @@
 {
     "intents": [
         {
-            "tag": "about_taj_mahal",
-            "patterns": [
-                "Tell me about the Taj Mahal",
-                "What is the Taj Mahal",
-                "What is the history of the Taj Mahal",
-                "What is the story of the Taj Mahal"
-            ],
-            "responses": [
-                "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself."
-            ]
-        },
-        {
-            "tag" : "taj_mahal_location",
-            "patterns": [
-                "Where is the Taj Mahal located?",
-                "What is the location of the Taj Mahal",
-                "Where can I find the Taj Mahal"
-            ],
-            "responses": [
-                "The Taj Mahal is located in Agra, India."
-            ]
-        },
-        {
-            "tag" : "red_fort_info",
-            "patterns": [
-                "Tell me about the Red Fort",
-                "What is the Red Fort",
-                "What is the history of the Red Fort",
-                "What is the story of the Red Fort"
-            ],
-            "responses": [
-                "The Red Fort is a historic fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1856. It is located in the center of Delhi and houses a number of museums."
-            ]
-        },
-        {
-            "tag" : "red_fort_location",
-            "patterns": [
-                "Where is the Red Fort located?",
-                "What is the location of the Red Fort",
-                "Where can I find the Red Fort"
-            ],
-            "responses": [
-                "The Red Fort is located in Delhi, India."
-            ]
-        },
-        {
             "tag": "greeting",
             "patterns": [
                 "Hi",
                 "Hello",
                 "Hey",
-                "How are you",
-                "Good morning",
-                "Good evening"
+                "How are you"
             ],
             "responses": [
                 "Hello!",
@@ -95,12 +47,6 @@
                 "Tell me the weather forecast for {location}",
                 "Is it going to rain in {location} today?",
                 "Weather update for {location}"
-            ],
-            "responses": [
-                "The weather in {location} is sunny today.",
-                "It seems like a cloudy day in {location}.",
-                "Expect some rain in {location} later.",
-                "I'm sorry, I couldn't fetch the weather information for {location} at the moment."
             ]
         },
         {
@@ -111,6 +57,19 @@
                 "Is it hot in {location} today?",
                 "Temperature update for {location}"
             ]
+        },
+        {
+            "tag" : "taj_mahal",
+            "patterns" : [
+                "Tell me about Taj Mahal",
+                "What is Taj Mahal",
+                "What is the history of Taj Mahal",
+                "Where is Taj Mahal located"
+            ],
+            "responses" : [
+                "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal."
+            ]
+
         }
     ]
 }
