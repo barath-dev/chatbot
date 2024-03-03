@@ -2,7 +2,8 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from chatbot import chatbot
 origins = [
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "http://127.0.0.1:5173"
 ]
 
 app = FastAPI()
