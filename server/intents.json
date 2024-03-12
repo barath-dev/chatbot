@@ -1,128 +1,163 @@
 {
     "intents": [
-        {
-            "tag": "greeting",
-            "patterns": [
-                "Hi",
-                "Hello",
-                "Hey",
-                "How are you?"
-            ],
-            "responses": [
-                "Hello!",
-                "Good to see you again!",
-                "Hi there, how can I help?"
-            ]
-        },
-        {
-            "tag": "goodbye",
-            "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Nice chatting with you, bye",
-                "Till next time"
-            ],
-            "responses": [
-                "See you!",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
-        },
-        {
-            "tag": "capabilities",
-            "patterns": [
-                "What can you do?",
-                "What are your capabilities?",
-                "What are you capable of?"
-            ],
-            "responses": [
-                "I can help you by providing details of historical places."
-            ]
-        },
-        {
-            "tag": "weather",
-            "patterns": [
-                "What is the weather like in {location}?",
-                "Tell me the weather forecast for {location}",
-                "Is it going to rain in {location} today?",
-                "Weather update for {location}"
-            ],
-            "responses": [
-                "I'm sorry, I don't have information about the weather at the moment."
-            ]
-        },
-        {
-            "tag": "temperature",
-            "patterns": [
-                "What is the temperature in {location}?",
-                "Tell me the temperature for {location}",
-                "Is it hot in {location} today?",
-                "Temperature update for {location}"
-            ],
-            "responses": [
-                "I'm sorry, I don't have information about the temperature at the moment."
-            ]
-        },
-        {
-            "tag": "taj_mahal",
-            "patterns": [
-                "Tell me about Taj Mahal",
-                "What is Taj Mahal",
-                "What is the history of Taj Mahal",
-                "Taj Mahal"
-            ],
-            "responses": [
-                "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal."
-            ]
-        },
-        {
-            "tag": "red_fort",
-            "patterns": [
-                "Tell me about Red Fort",
-                "What is Red Fort",
-                "What is the history of Red Fort",
-                "Red Fort"
-            ],
-            "responses": [
-                "The Red Fort is a historic fort in the city of Delhi in India, which served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned the construction of the Red Fort on 12 May 1638."
-            ]
-        },
-        {
-            "tag": "qutub_minar",
-            "patterns": [
-                "Tell me about Qutub Minar",
-                "What is Qutub Minar",
-                "What is the history of Qutub Minar",
-                "Where is Qutub Minar located",
-                "Qutub Minar"
-            ],
-            "responses": [
-                "The Qutub Minar, also spelled as Qutb Minar, is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Qutub Minar is a 73-meter tall tapering tower of five storeys, with a 14.3-meter base diameter, reducing to 2.7 meters at the top of the peak."
-            ]
-        },
-        {
-            "tag": "india_gate",
-            "patterns": [
-                "Tell me about India Gate",
-                "What is India Gate",
-                "Where is India Gate located",
-                "India Gate"
-            ],
-            "responses": [
-                "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the Ceremonial axis of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 70,000 soldiers of the British Indian Army who died in the period 1914 to 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli, and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War."
-            ]
-        },
-        {
-            "tag": "victoria_memorial",
-            "patterns": [
-                "Tell me about Victoria Memorial",
-                "Where is Victoria Memorial located",
-                "Victoria Memorial"
-            ],
-            "responses": [
-                "The Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria and is now a museum and tourist destination under the auspices of the Ministry of Culture."
-            ]
-        }
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "taj_mahal",
+        "patterns": [
+          "Tell me about the Taj Mahal",
+          "What is the Taj Mahal?",
+          "What is the history of the Taj Mahal?"
+        ],
+        "responses": [
+          "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan, the builder."
+        ]
+      },
+      {
+        "tag": "red_fort",
+        "patterns": [
+          "Tell me about the Red Fort",
+          "What is the Red Fort?",
+          "What is the history of the Red Fort?"
+        ],
+        "responses": [
+          "The Red Fort is a historic fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1856. It is located in the center of Delhi and houses a number of museums."
+        ]
+      },
+      {
+        "tag": "qutub_minar",
+        "patterns": [
+          "Tell me about the Qutub Minar",
+          "What is the Qutub Minar?",
+          "What is the history of the Qutub Minar?"
+        ],
+        "responses": [
+          "The Qutub Minar is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Made of red sandstone and marble, Qutub Minar is a 73-metre (240 feet) tall tapering tower of five storeys, with a 14.3 metres (47 feet) base diameter, reducing to 2.7 metres (9 feet) at the top of the peak."
+        ]
+      },
+      {
+        "tag": "india_gate",
+        "patterns": [
+          "Tell me about the India Gate",
+          "What is the India Gate?",
+          "What is the history of the India Gate?"
+        ],
+        "responses": [
+          "The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the 'ceremonial axis' of New Delhi, India, formerly called Kingsway. It stands as a memorial to 70,000 soldiers of the British Indian Army who died in between 1914 to 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War."
+        ]
+      },
+      {
+        "tag": "lotus_temple",
+        "patterns": [
+          "Tell me about the Lotus Temple",
+          "What is the Lotus Temple?",
+          "What is the history of the Lotus Temple?"
+        ],
+        "responses": [
+          "The Lotus Temple, located in Delhi, India, is a Bahá'í House of Worship that was dedicated in December 1986. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Bahá'í Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification."
+        ]
+      },
+      {
+        "tag": "akshardham",
+        "patterns": [
+          "Tell me about the Akshardham",
+          "What is the Akshardham?",
+          "What is the history of the Akshardham?"
+        ],
+        "responses": [
+          "Akshardham is a spiritual-cultural campus in New Delhi, India. Also referred to as Delhi Akshardham or Swaminarayan Akshardham, the complex displays millennia of traditional Hindu and Indian culture, spirituality, and architecture. The building was inspired and moderated by Pramukh Swami Maharaj, the spiritual head of the Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha, whose 3,000 volunteers helped 7,000 artisans construct Akshardham."
+        ]
+      }
     ]
-}
+  }
