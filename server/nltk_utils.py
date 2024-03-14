@@ -1,43 +1,35 @@
 import numpy as np
 import nltk
-# nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+from nltk.tree import Tree
+from nltk import pos_tag, ne_chunk
 stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
 
 def tokenize(sentence):
-    """
-    split sentence into array of words/tokens
-    a token can be a word or punctuation character, or number
-    """
-    return nltk.word_tokenize(sentence)
+    return word_tokenize(sentence)
 
+def pos_tag_sentence(sentence):
+    sentence_words = nltk.word_tokenize(sentence)
+    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
+    pos_tags = pos_tag(sentence_words)
+    named_entities = ne_chunk(pos_tags) 
+    entities = []
+    for subtree in named_entities:
+        if isinstance(subtree, Tree) and subtree.label() == 'GPE':
+            entities.append(" ".join([word for word, _ in subtree]))
+
+    return  entities
 
 def stem(word):
-    """
-    stemming = find the root form of the word
-    examples:
-    words = ["organize", "organizes", "organizing"]
-    words = [stem(w) for w in words]
-    -> ["organ", "organ", "organ"]
-    """
     return stemmer.stem(word.lower())
 
-
 def bag_of_words(tokenized_sentence, words):
-    """
-    return bag of words array:
-    1 for each known word that exists in the sentence, 0 otherwise
-    example:
-    sentence = ["hello", "how", "are", "you"]
-    words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
-    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
-    """
-    # stem each word
     sentence_words = [stem(word) for word in tokenized_sentence]
-    # initialize bag with 0 for each word
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
-        if w in sentence_words: 
+        if w in sentence_words:
             bag[idx] = 1
-
     return bag
