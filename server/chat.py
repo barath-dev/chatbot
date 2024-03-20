@@ -54,7 +54,10 @@ def get_response(user_input):
                     "message" : random.choice(intent['responses'])
                 })
     else:
-        return "I do not understand..."
+        return({
+            "type" : "text",
+            "message" : "I do not understand..."
+        })
 
 
 def get_weather_response(location):
