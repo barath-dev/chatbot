@@ -21,6 +21,7 @@ export default function Chat() {
     const { getChat } = useChat()
     const handleSend = async () => {
         const { response } = await getChat(message)
+        if(message === '') return
         setMessages([...messages, {
             type: "text",
             message: message,
