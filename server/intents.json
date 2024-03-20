@@ -45,55 +45,6 @@
       ]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    },
-    {
       "tag": "taj_mahal",
       "patterns": [
         "Tell me about the Taj Mahal",
@@ -113,6 +64,61 @@
       ],
       "responses": [
         "The Red Fort is a historic fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1856. It is located in the center of Delhi and houses a number of museums."
+      ]
+    },
+    {
+      "tag": "humayun_tomb",
+      "patterns": [
+        "Tell me about the Humayun's Tomb",
+        "What is the Humayun's Tomb?",
+        "What is the history of the Humayun's Tomb?"
+      ],
+      "responses": [
+        "Humayun's tomb is the tomb of the Mughal Emperor Humayun in Delhi, India. The tomb was commissioned by Humayun's first wife and chief consort, Empress Bega Begum, in 1569-70, and designed by Mirak Mirza Ghiyas and his son, Sayyid Muhammad, Persian architects chosen by her."
+      ]
+    },
+    {
+      "tag": "jama_masjid",
+      "patterns": [
+        "Tell me about the Jama Masjid",
+        "What is the Jama Masjid?",
+        "What is the history of the Jama Masjid?"
+      ],
+      "responses": [
+        "The Masjid-i Jahān-Numā, commonly known as the Jama Masjid of Delhi, is one of the largest mosques in India. It was built by Mughal Emperor Shah Jahan between 1644 and 1656 at a cost of 1 million rupees, and was inaugurated by an Imam from Bukhara, present-day Uzbekistan."
+      ]
+    },
+    {
+      "tag": "raj_ghat",
+      "patterns": [
+        "Tell me about the Raj Ghat",
+        "What is the Raj Ghat?",
+        "What is the history of the Raj Ghat?"
+      ],
+      "responses": [
+        "Raj Ghat is a memorial dedicated to Mahatma Gandhi in Delhi, India. Originally it was the name of a historic ghat of Old Delhi. Close to it, and east of Daryaganj was Raj Ghat Gate of the walled city, opening at Raj Ghat on Yamuna River."
+      ]
+    },
+    {
+      "tag": "jantar_mantar",
+      "patterns": [
+        "Tell me about the Jantar Mantar",
+        "What is the Jantar Mantar?",
+        "What is the history of the Jantar Mantar?"
+      ],
+      "responses": [
+        "The Jantar Mantar is an equinoctial sundial, consisting of a gigantic triangular gnomon with the hypotenuse parallel to the Earth's axis. On either side of the gnomon is a quadrant of a circle, parallel to the plane of the equator. The instrument is intended to measure the time of day, correct to half a second and declination of the Sun and the other heavenly bodies."
+      ]
+    },
+    {
+      "tag": "purana_qila",
+      "patterns": [
+        "Tell me about the Purana Qila",
+        "What is the Purana Qila?",
+        "What is the history of the Purana Qila?"
+      ],
+      "responses": [
+        "Purana Qila is one of the oldest forts in Delhi. Its current form was built by Sher Shah Suri, the founder of the Sur Empire. Sher Shah raised the citadel of Purana-Qal'a with an extensive city-area sprawling around it. It seems that the Purana-Qal'a was still incomplete at Sher Shah's death in 1545, and was perhaps completed by his son Islam Shah or Humayun, although it is not certain which parts were built by whom."
       ]
     },
     {
