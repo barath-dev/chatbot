@@ -1,6 +1,16 @@
-Frontend - React + Tailwind Css
-Backend - FastAPI + NLTK + Tensorflow
-FastAPI - Backend Framework
-React Frontend will make request to the backend 
-/chat -> {message: "What is the temerature in Delhi"}
-message and then pass that to the ML Model
+# Places Trained On
+- Taj Mahal
+- Red Fort
+- Humayun's Tomb
+- Jama Masjid
+- Raj Ghat
+- Jantar Mantar
+- Purana Qila
+- Qutub Minar
+- India Gate
+- Lotus Temple
+- Akshardham
+- Charminar
+- Golconda Fort
+- Ramoji Film City
+- Salar Jung Museum

@@ -173,10 +173,54 @@
       ]
     },
     {
-      "tag":"weather",
+      "tag": "weather",
       "patterns": [
         "What is the weather in {location}?",
         "weather in {location}?"
+      ]
+    },
+    {
+      "tag": "charminar",
+      "patterns": [
+        "Tell me about the Charminar",
+        "What is the Charminar?",
+        "What is the history of the Charminar?"
+      ],
+      "responses": [
+        "The Charminar, constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become a global icon of Hyderabad, listed among the most recognized structures of India. The Charminar is situated on the east bank of Musi River."
+      ]
+    },
+    {
+      "tag": "golconda_fort",
+      "patterns": [
+        "Tell me about the Golconda Fort",
+        "What is the Golconda Fort?",
+        "What is the history of the Golconda Fort?"
+      ],
+      "responses": [
+        "Golkonda, also known as Golconda, Gol konda, or Golla konda, is a citadel and fort in Southern India and was the capital of the medieval sultanate of the Qutb Shahi dynasty, is situated 11 km west of Hyderabad. It is also a tehsil of Hyderabad district, Telangana, India."
+      ]
+    },
+    {
+      "tag": "ramoji_film_city",
+      "patterns": [
+        "Tell me about the Ramoji Film City",
+        "What is the Ramoji Film City?",
+        "What is the history of the Ramoji Film City?"
+      ],
+      "responses": [
+        "Ramoji Film City is an integrated film city complex located in Hyderabad, India. It is the largest film city in the world, spread over 1666 acres. It was built by Telugu film producer Ramoji Rao in 1991. The Film City was inaugurated by Sanjay Gandhi."
+      ]
+    },
+    {
+      "tag": "salar_jung_museum",
+      "patterns": [
+        "Tell me about the Salar Jung Museum",
+        "What is the Salar Jung Museum?",
+        "What is the history of the Salar Jung Museum?"
+      ],
+      "responses": [
+        "The Salar Jung Museum is an art museum located at Darushifa, on the southern bank of the Musi River in the city of Hyderabad, Telangana, India. It is one of the three National Museums of India. It has a collection of sculptures, paintings, carvings, textiles, manuscripts, ceramics, metallic artefacts, carpets, clocks, and furniture from Japan, China, Burma, Nepal, India, Persia, Egypt, Europe, and North America."
       ]
     }
   ]
